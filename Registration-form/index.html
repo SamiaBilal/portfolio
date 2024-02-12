@@ -1,0 +1,66 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="images/Screenshot 2023-12-16 230755.png"></center>
+
+    <form style="background-color: rgb(248, 227, 201);" action="/submit" method="post">
+
+        <label>First Name: (max 30 characters)
+        <input type="text" name="firstName" maxlength="30" required></label><br>
+        <label>Last Name: (max 30 characters)
+        <input type="text" name="lastName" maxlength="30" required></label><br>
+        <label>Date of Birth: 
+        <input type="date" name="dob" required></label><br>
+        <label>Email:
+        <input type="email" name="email" required></label><br>
+        <label>Mobile Number:
+        <input type="tel" name="mobile" pattern="[0-9]{10}" required></label><br>
+        <label>Gender:
+            <select name="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+            </select></label><br>
+        <label>Address: 
+         <textarea name="address" rows="4" required></textarea></label><br>
+        <label>City: 
+         <input type="text" name="city" required></label><br>
+        <label>Pin Code: 
+         <input type="text" name="pinCode" pattern="[0-9]{6}" required></label><br>
+        <label>State: 
+         <input type="text" name="state" required></label><br>
+        <label>Country: 
+         <input type="text" name="country" required></label><br>
+         <label>Hobbies:
+            <select name="hobbies" multiple>
+                <option value="reading">Reading</option>
+                <option value="singing">Singing</option>
+                <option value="dancing">Dancing</option>
+                <option value="sports">Sports</option>
+            </select>
+        </label><br>
+        <label>Other Hobbies: <input type="text" name="otherHobbies"></label><br>
+        <label>Qualification:
+            <select name="qualification">
+                <option value="highSchool">High School</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="graduate">Graduate</option>
+            </select>
+        </label><br>
+        <label>Board: <input type="text" name="board"></label><br>
+        <label>Percentage: <input type="text" name="percentage"></label><br>
+        <label>Year of Passing: <input type="text" name="yearOfPassing"></label><br>
+        
+        <label>Courses Applied For:</label><br>
+
+        <label><input type="radio" name="courses" value="course1"> BSC</label>
+        <label><input type="radio" name="courses" value="course2"> B.COM</label>
+        <label><input type="radio" name="courses" value="course3"> BA</label><br>
+    </forms>
+    <button type="submit">Submit</button>
+</body>
+</html>
