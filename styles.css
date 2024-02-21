@@ -1,12 +1,14 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: #7aa3b4;
+    background-color: #a8b1f0;
+    font-weight: 200;
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1, h2 {
     color: #0f1823;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 table {
     color: #474838;
