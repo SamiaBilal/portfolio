@@ -1,15 +1,21 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: #a8b1f0;
+    background-color: #b590e1;
     font-weight: 200;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,125,229,1) 100%);
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1, h2 {
-    color: #0f1823;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #0f0625;
+   
 }
 table {
-    color: #474838;
+    color: #a364b6;
+}
+a {
+color: rgb(162, 149, 204);
+text-decoration: none;
 }
