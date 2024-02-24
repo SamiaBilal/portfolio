@@ -1,0 +1,26 @@
+td {
+    width: 80px;
+    height: 55px;
+    border: 0px solid black;
+}
+
+.green {
+    background-color: #79ad71;
+}
+
+.beige {
+    background-color: #bdb38a;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: rgb(129, 95, 54);
+}
+
+.chess_piece {
+    width: 80px;
+    height: 55px;
+}
+body {
+    background-color: rgb(232, 216, 164);
+}
