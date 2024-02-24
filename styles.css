@@ -1,10 +1,8 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-<<<<<<< HEAD
-=======
     background-color: #b590e1;
     font-weight: 200;
->>>>>>> 07111aff0033b325da9e1071f08553f2b917e066
+
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(198,125,229,1) 100%);
 }
@@ -16,7 +14,6 @@ h1, h2 {
    
 }
 table {
-<<<<<<< HEAD
     color: #474838;
    
 }
@@ -25,11 +22,10 @@ a {
     color: #dd93ff;
     width:70px; 
     height:50px;
-=======
+
     color: #a364b6;
 }
 a {
 color: rgb(162, 149, 204);
 text-decoration: none;
->>>>>>> 07111aff0033b325da9e1071f08553f2b917e066
 }
