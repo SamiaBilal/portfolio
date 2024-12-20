@@ -184,7 +184,7 @@ header {
     border-radius: 50%;
     position: absolute;
     left: 50%; 
-    top: 200%;
+    top: 210%;
     transform: translate(-50%, -50%); 
 }
 .circle-text {
