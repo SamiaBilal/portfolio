@@ -80,44 +80,57 @@ document.write(series.join(", ") + "<br>");
 
 // Question 7
 
-let food = ["cake", "apple pie", "cookie", "chips", "patties"];
+var food = ["cake", "apple pie", "cookie", "chips", "patties"];
 
 var userInput = prompt("Enter the item you want to search for:");
 
-if (food.includes(userInput.toLowerCase())) {
+if (food.indexOf(userInput) !== -1) {
   alert("Yes, the item is found in the list.");
 } else {
   alert("Sorry, the item is not found in the list.");
 }
 
 // Question 8
-document.write("<h2>Array list</h2>");
+document.write("<h2>Array List</h2>");
 
-let num1 = [24, 53, 78, 91, 12];
+var num1 = [24, 53, 78, 91, 12];
+document.write("Array Items: " + num1 + "<br>");
 
-document.write("Array Items: " + num1.join(", ") + "<br>");
-
-let largest = Math.max(...num1);
-
+var largest = num1[0]; // which means that it has declared the first item as the largest for now.
+for ( var i = 1; i < num1.length; i++) { 
+  if (num1[i] > largest) {
+    largest = num1[i]; // if the current num 1 gets greater than the largest one atp then it becomes the largest one.
+  }
+}
 document.write("Largest number in the array: " + largest + "<br>");
+
 
 // Question 9
 
-let num2 = [24, 53, 78, 91, 12];
+var num2 = [24, 53, 78, 91, 12];
 
-document.write("Array Items: " + num2.join(", ") + "<br>");
+document.write("Array Items: " + num2 + "<br>");
 
-let smallest = Math.min(...num2);
+var smallest = num1[0]; 
+
+for (var i = 1; i < num2.length; i++) {
+    if (num2[i] < smallest) {
+    smallest = num2[i];
+  }
+}
 
 document.write("Smallest number in the array: " + smallest);
 
 // Question 10
 
-document.write("<h2>Multiples of 5 from 1 to 100:<h2>");
+document.write("<h2>Multiples of 5 from 1 to 100:</h2>");
 
-for (let i = 5; i <= 100; i += 5) {
-  document.write(i + "<br>");
+for (let i = 1; i <= 100; i++) {
+  if (i % 5 === 0) {
+    document.write(i + "<br>");
+  }
 }
+
 
 
 
